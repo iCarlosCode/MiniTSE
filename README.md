@@ -17,3 +17,6 @@ cd frontend
 npm install
 npm start
 ```
+
+Inspiração
+https://www.tse.jus.br/hotsites/simulador-de-votacao/inicioVotacao.html
