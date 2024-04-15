@@ -1,0 +1,35 @@
+[client]
+database = preditor
+user = root
+password = 35210635
+default-character-set = utf8
+
+[cors]
+allowed_origin = http://localhost:3000
+allowed_origin = http://localhost:3000
+
+[general]
+environment = development
+default_start_date = 2021-04-01
+
+[co_ocurrences]
+num_cpus = 2
+memory_limit = 8GB
+client_name = mining-service
+dashboard_port = 40603
+data_threshold = 0.01
+frequent_items_threshold = 0.5
+index_database_column_name = CHAMADO
+target_variable = CODAPLICADODESC
+date_column = ENCERRADO
+dataframe_file_name = pecas_assist
+co_ocurrences_dataframe = pecas_assist_sintoma_causa
+base_entity_col = GRUPO_CAUSA
+related_entity_col = CODAPLICADODESC
+groups_file_path = /Users/pcarl/Documents/NESS/positivo-preditor/back-end/sintoma_causa_dataset.csv
+
+[ranking]
+csv_path = kfold_csv/
+n_folds = 5
+minimum_start_date = 2022-04-01
+maximum_end_date = 2023-03-01

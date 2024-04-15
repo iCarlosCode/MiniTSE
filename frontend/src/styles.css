@@ -1,0 +1,45 @@
+.App { 
+    display: flex; 
+} 
+#Teclado {
+    
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+.Tela {
+    border: 2px solid black;
+    margin-right: 4px;
+    padding: 4px;
+}
+.Fim {
+    border: 2px solid black;
+    margin-right: 4px;
+    padding: 4px;
+}
+
+.Linha 
+{
+    display: flex;
+    justify-content: center; /* or flex-start/flex-end/space-between/space-around */
+    align-items: center; /* or flex-start/flex-end/stretch/baseline */
+}
+
+#Branco * {
+    /* CSS styles for the button with id="myButton" */
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+button {
+    color: rgba(255, 255, 255, 1);
+    font-size: 30px;
+    width: 60px;
+    margin: 2px;
+    display: flex;
+    height: 40px;
+}
+
+
